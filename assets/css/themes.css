@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+body {
+	background: #f0f0f0;
+	font-family: 'Raleway';
+}
+.nav-area {
+	margin: 0;
+	background: linear-gradient(to right, #084ac6 , #5997ff);
+	padding: 0;
+}
+
+.nav-logo {
+	padding-top: 20px;
+	color:#fff;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.nav-logo:hover {
+	color: #fff;
+	text-decoration: none
+}
+
+.nav-menu ul {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.nav-menu ul li{
+	display: inline;
+	padding: 25px 20px 0 20px;
+	margin: 0;
+}
+
+.nav-menu ul li a {
+	text-transform: uppercase;
+	color: #fefefe;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 0;
+}
+
+.nav-menu ul li a:hover {
+	font-weight: bold;
+	background: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #fff;
+}
+
+.covertron {
+	background-image: url(../images/cover.jpg);
+	width: 100%;
+	height: 520px;
+	background-size: cover;
+	padding: 120px 100px;
+	margin: 0;
+}
+
+.covertron p {
+	font-size: 52px;
+	font-weight: bold;
+	color: white;
+	line-height: 1;
+	position: relative;
+}
+
+.covertron-full {
+	background-image: url(../images/cover.jpg);
+	width: 100%;
+	min-height: 250px;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0;
+}
+
+.covertron-full p {
+	font-size: 52px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 1;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+	margin: 0;
+}
+
+.form-control {
+        min-height: 41px;
+		background: #fff;
+		box-shadow: none !important;
+		border-color: #e3e3e3;
+	}
+	.form-control:focus {
+		border-color: #307eff;
+	}
+    .form-control, .btn {        
+        border-radius: 2px;
+    }
+	.login-form {
+		width: 300px;
+		margin: 0 auto;
+		padding: 80px 0 30px;		
+	}
+	.login-form form {
+		color: #7a7a7a;
+		border-radius: 2px;
+    	margin-bottom: 15px;
+        font-size: 13px;
+        background: #ececec;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+        padding: 10px 30px;	
+        position: relative;	
+    }
+	.login-form h2 {
+		font-size: 22px;
+        margin: 35px 0 25px;
+    }
+	.login-form .avatar {
+		position: absolute;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: -50px;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		z-index: 9;
+		background: #307eff;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+
+	.avatar img {
+		width: 100%;
+		border-radius: 50%;
+		height: 100%;
+	}
+
+	.login-form .avatar img {
+		width: 100%;
+	}	
+    .login-form input[type="checkbox"] {
+        margin-top: 2px;
+    }
+    .login-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #307eff;
+		border: none;
+		margin-bottom: 20px;
+    }
+	.login-form .btn:hover, .login-form .btn:focus {
+		background: #5997ff;
+        outline: none !important;
+	}    
+	.login-form a {
+		color: #444;
+		text-decoration: underline;
+	}
+	.login-form a:hover {
+		text-decoration: none;
+	}
+	.login-form form a {
+		color: #7a7a7a;
+		text-decoration: none;
+	}
+	.login-form form a:hover {
+		text-decoration: underline;
+	}
+
+	.form-register {
+		background: #fff;
+		box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+		padding: 30px;
+	}
+
+	.footer {
+		margin: 0;
+		background: #343a40;
+		border-top: 5px solid #5997ff; 
+	}
+
+	.footer-section {
+		height: auto;
+		color: #bbb;
+		padding: 30px 10px 10px 10px;
+		font-size: 14px;
+		font-family: arial;
+	}
+
+	.footer-section .title {
+		color: #868e96;
+		font-weight: 700;
+		font-size: 16px;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+	}
+
+	.footer-section .hotline {
+		font-weight: 400;
+		font-family: arial;
+		font-size: 42px;
+	}
+
+	.meta {
+		padding-top: 10px;
+		color: #868e96;
+		background: #212529;
+		margin: 0;
+		font-family: arial;
+	}

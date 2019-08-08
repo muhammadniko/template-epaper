@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Epaper - Radar Banjarmasin</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/themes.css" rel="stylesheet">
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="row nav-area">
+	<div class="container"> 
+		<nav class="navbar">
+			<div class="col-md-4">
+				<div class="navbar-header">
+					<a class="nav-logo" href="#">RADAR BANJARMASIN</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-utama">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="collapse navbar-collapse  nav-menu pull-right" id="navbar-utama">
+					<ul class="nav navbar-nav">
+						<li><a href="">Home</a></li>
+						<li><a href="">E-Paper</a></li>
+						<li><a href="">Daftar</a></li>
+						<li><a href="">Kontak</a></li>
+						<li><a href="">Bantuan</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>	
+</div>
+<div class="row content">
+	<!--<div class="container"> -->
+		<div class="col-md-8" style="padding: 0;">
+			<div class="covertron">
+				<div class="overlay"></div>
+				<p>Selamat Datang di E-Paper Radar Banjarmasin</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+		<div class="login-form">
+			<form action="/examples/actions/confirmation.php" method="post">
+				<div class="avatar">
+					<img src="assets/images/avatar.jpg" alt="Avatar">
+				</div>
+				<h2 class="text-center">Masuk Sebagai :</h2>   
+				<div class="form-group">
+					
+					<select class="form-control browser-default custom-select" name="role" required="required">
+						<option selected="selected" disabled="disabled">- Pilih -</option>
+						<option>Administrator</option>
+						<option>Member</option>
+					</select>
+				</div>
+				<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
+					<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+				</div>
+				</div>
+				<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock"></i></span>
+					<input type="password" class="form-control" name="password" placeholder="Password" required="required">
+				</div>
+				</div>        
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+				</div>
+				<div class="clearfix">
+					<a href="#" class="pull-right">Lupa Password ?</a>
+				</div>
+			</form>
+			<p class="text-center medium">Belum memiliki akun ? <a class="" href="#">Daftar</a></p>
+		</div>
+	<!--</div>-->
+	</div>
+</div>
+<div class="row footer">
+	<div class="container">
+		<div class="col-md-4 footer-section">
+			<div class="title">Hotline Pemasaran</div>
+			<p class="hotline">0821-80011991</p>
+		</div>
+		<div class="col-md-4 footer-section">
+			<div class="title">Alamat Kantor</div>
+			<p>
+				Gedung Biru Jl. A.Yani KM.26,900 Landasan Ulin</br>
+				Telp (0891) 11816767, Fax (0218) 98981002
+			
+			</p>
+		</div>
+		<div class="col-md-4 footer-section">
+			<div class="title">Situs Web</div>
+			<p>
+				https://www.radarbanjarmasin.co.id<br>
+				https://epaper.radarbanjarmasin.co.id<br>
+				https://www.kalsel.prokal.co
+			</p>
+		</div>
+	</div>
+</div>
+<div class="row meta">
+	<div class="container"><p class="text-center small">Copyright &copy 2013 Media Link - Kaltim Post Group.</p></div>
+</div>
+</body>
+</html>
